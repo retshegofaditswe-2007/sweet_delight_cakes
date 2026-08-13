@@ -100,6 +100,8 @@ WEEKS	ACTIVITIES	MILESTONE
 8	Perform a final review of the website, ensure all assignment requirements have been met, organise project files, and submit the complete POE before the deadline.	Final website and POE submitted successfully.
 
 ##### Sitemap
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e839ad65-294f-42b2-9a68-7efe499174ba" />
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7001638f-e5e3-429e-a84b-2645a4ea34a4" />
 
 

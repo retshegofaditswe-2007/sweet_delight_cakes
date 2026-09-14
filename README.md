@@ -89,15 +89,16 @@ Additional Features
 
 #### Timeline and Milestone
 7. Timeline and Milestones
-WEEKS	ACTIVITIES	MILESTONE
-1	Conduct research on bakery websites, identify the target audience, analyse competitors, gather business requirements, and collect information about Sweet Delight Cakes (mission, vision, products, and services).	Research completed and business requirements documented.
-2	Plan the website structure, create a sitemap, decide on the website pages, select the colour scheme, fonts, and branding, and develop low-fidelity wireframes for the homepage and other pages.	Website planning and wireframes completed.
-3	Register the domain name (if applicable), choose a web hosting provider, set up the project folder, and create the basic HTML structure for all website pages (Home, About Us, Products, Gallery, and Contact).	Basic website structure completed.
-4	Apply CSS styling to improve the appearance of the website, create a responsive layout, add the bakery branding, colours, typography, navigation menu, and footer.	Website design completed.
-5	Add JavaScript to improve functionality, including the navigation menu, image gallery, contact form validation, interactive buttons, and product information.	Website functionality completed.
-6	Test the website on different browsers and devices, identify and fix errors, improve loading speed, check links, and ensure all pages function correctly.	Testing and quality assurance completed.
-7	Prepare the project documentation, calculate the website budget, complete the proposal, compile Harvard references, update the README.md file, and make final improvements based on feedback.	Documentation completed.
-8	Perform a final review of the website, ensure all assignment requirements have been met, organise project files, and submit the complete POE before the deadline.	Final website and POE submitted successfully.
+7. Timeline and Milestones
+Week	Activities / Development Work	Connection to Proposal	Milestone / Deliverable
+Week 1 – Research & Requirements	Research existing bakery websites and competitors. Identify the target audience, including families, couples, businesses, schools/universities and individuals looking for customised cakes. Collect Sweet Delight Cakes' business information, including its history, mission, vision, products and services. Identify the problems with the current ordering process through WhatsApp and Facebook.	Based on Section 1: Organisation Overview, Target Audience, and Section 3: Current Website Analysis.	Research completed; target audience identified; business requirements and website needs documented.
+Week 2 – Planning & Website Design	Plan the website structure and create a sitemap. Decide on the pages: Home, About Us, Products & Services, Gallery, Contact, Online Orders and FAQ/Additional Features. Select the proposed colour scheme, fonts and branding. Create low-fidelity wireframes showing the layout of the main pages.	Based on Section 4: Proposed Website Features and Functionalities and Section 5: Design and User Experience.	Sitemap, page structure, colour scheme, typography and wireframes completed.
+Week 3 – HTML Website Development	Create the project folders and begin developing the website using HTML5. Build the basic structure of the Home, About Us, Products & Services, Gallery, Contact, Online Orders and FAQ pages. Add the Sweet Delight Cakes logo, headings, text, images and navigation links.	Based on Section 6: Technical Requirements, which specifies HTML5, CSS3 and JavaScript, and Section 4, which lists the required website pages.	Basic HTML structure of all main pages completed and pages linked together.
+Week 4 – CSS & Visual Design	Apply CSS3 to style the website. Implement the Sweet Delight Cakes colour scheme, typography, header, navigation menu, buttons, cards, borders and footer. Create a responsive layout so the website works on computers, tablets and smartphones.	Based on Section 5: Design and User Experience, including branding, colours, typography, responsive layout, easy navigation and mobile-friendly design.	Website's visual design completed and responsive styling implemented.
+Week 5 – Website Functionality	Add JavaScript functionality. Develop interactive buttons, navigation features, image gallery functions, contact-form validation and product information features. Develop the online ordering functionality where applicable, including cake type, flavour and other customer requirements.	Based on Section 4: Proposed Website Features, including the Gallery, Contact Page, Online Ordering and Additional Features. Technical development follows Section 6.	Interactive website functionality completed and JavaScript features working.
+Week 6 – Testing & Quality Assurance	Test every webpage and navigation link. Test the website on different browsers, computers, tablets and smartphones. Check the contact and ordering forms, buttons, images and gallery. Identify and correct HTML, CSS and JavaScript errors. Check page loading and overall usability.	Based on Section 5: User Experience Considerations, which requires easy navigation, clear menus, fast-loading pages and mobile-friendly design.	Website tested; errors corrected; links, forms and features functioning correctly.
+Week 7 – Documentation & Improvements	Complete the project documentation. Finalise the website proposal, timeline, budget and reference list. Update the README.md file. Document the website features and development process. Review feedback from testing and make necessary improvements.	Based on Section 7: Timeline and Milestones, Section 8: Budget, and Section 9: Reference List.	Project documentation, budget, references and README completed; improvements made from feedback.
+Week 8 – Final Review & Submission	Perform a final review of all website pages and features. Check that the website meets the original goals and requirements. Confirm that the required pages and functionality are included. Organise the HTML, CSS, JavaScript, images and documentation files. Complete the final POE and submit the project before the deadline.	Final implementation of the requirements from Sections 2–6 and completion of the proposal requirements in Sections 7–9.
 
 ##### Sitemap
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e839ad65-294f-42b2-9a68-7efe499174ba" />
@@ -106,13 +107,93 @@ WEEKS	ACTIVITIES	MILESTONE
 
 
 ###### Changelog
-The website should:
-•	Display cake categories.
-•	Allow online orders.
-•	Include an image gallery.
-•	Accept online payments.
-•	Provide business information and contact details.
-•	Improve search engine visibility.
+# Sweet Delight Cakes – Website Changelog
+
+The changelog records the development and improvements made to the Sweet Delight Cakes website. It shows the features that were added and improved as the website developed.
+
+## Website Creation
+
+* Created the Sweet Delight Cakes website.
+* Added the website name and logo.
+* Created the Home page.
+* Added a navigation menu to allow users to move between pages.
+* Added the About Us page.
+* Added information about the history, mission and vision of Sweet Delight Cakes.
+* Added a Contact page.
+* Added a Products and Services page.
+
+##  Website Design Improvements
+
+* Added CSS styling to improve the appearance of the website.
+* Added pink and hot-pink colours to match the cake business theme.
+* Styled the header and navigation menu.
+* Added hover effects to navigation links.
+* Improved the appearance of headings and paragraphs.
+* Added a footer to the website.
+
+## Products and Services
+
+* Added cake products and services to the website.
+* Organised products into sections/cards.
+* Added descriptions of available cakes and services.
+* Improved the layout so customers can easily view the products.
+
+## About Us Improvements
+
+* Added rounded paragraph cards to the About Us page.
+* Added pink borders around information sections.
+* Added spacing and padding to make the information easier to read.
+* Improved the layout of the Mission and Vision section.
+
+## Online Ordering
+
+* Added an Online Orders page.
+* Created an order form for customers.
+* Customers can provide their details and cake requirements.
+* Added options for customers to specify cake flavours, sizes, designs and themes.
+* Improved the website's convenience for customers who want to place an order.
+
+## Version 1.5 – FAQ and Customer Support
+
+* Added an FAQ page.
+* Added frequently asked questions about cakes, orders, prices and services.
+* Made information easier for customers to find.
+* Added navigation links to the FAQ page.
+
+## Responsive Website
+
+* Added responsive CSS for tablets and smartphones.
+* Adjusted the navigation menu for smaller screens.
+* Adjusted font sizes for different screen sizes.
+* Changed the cake product grid to display correctly on tablets and smartphones.
+* Improved the overall mobile-friendly design.
+
+## Current Website Features
+
+The Sweet Delight Cakes website can currently:
+
+* Display information about the business.
+* Show the company's history, mission and vision.
+* Display available cake products and services.
+* Allow customers to view information about cakes.
+* Provide contact information.
+* Allow customers to submit online orders.
+* Provide answers to frequently asked questions.
+* Allow users to navigate between different pages.
+* Display a consistent pink cake-themed design.
+* Adapt to different screen sizes, including computers, tablets and smartphones.
+
+## Future Improvements
+
+Possible future improvements include:
+
+* Adding online payment functionality.
+* Adding customer reviews and ratings.
+* Adding a photo gallery of completed cakes on the services and products
+* Adding order confirmation messages.
+* Adding delivery options.
+* Adding social media links.
+* Adding an administrator section for managing orders.
 
 ###### Reference List
 Adobe. (2025). Adobe Color. Available at: https://color.adobe.com (Accessed: 30 July 2026).

@@ -1,5 +1,7 @@
-## Project Overview
+# SWEET DELIGHT CAKES
+ST10508280 - BOIPELO MASILO
 
+## Project Overview
 Sweet Delight Cakes is a start-up, home-based bakery established in 2026 with the aim of providing customers with fresh, delicious, affordable, and beautifully designed cakes for their special occasions.
 
 The business started as a small home bakery and was created from a passion for baking, creativity, and bringing happiness to people through cakes. The idea behind Sweet Delight Cakes was inspired by the growing demand for personalised and affordable cakes for occasions such as birthdays, weddings, graduations, baby showers, anniversaries, and other celebrations.

@@ -1,31 +1,11 @@
 # Sweet_delight_cakes
 ST10508280 - Boipelo Masilo
 ## Project Overview
-Sweet Delight Cakes is a start-up, home-based bakery
-established in 2026 with the aim of providing customers
-with fresh, delicious, affordable, and beautifully designed cakes for
-their special occasions. The business started as a small home bakery and
-was created from a passion for baking, creativity, and bringing happiness
-to people through cakes.
-The idea behind Sweet Delight Cakes was inspired by the growing demand
-for personalised and affordable cakes for occasions such as birthdays,
-weddings, graduations, baby showers, anniversaries, and other celebrations.
-Many customers want cakes that are not only delicious but also match the theme
-and style of their special event. Sweet Delight Cakes was established to meet this
-need by offering customers the opportunity to choose their preferred flavours, designs,
-sizes, and themes.
-The business operates as a home-based bakery, allowing Sweet Delight Cakes
-to focus on producing cakes in small quantities while maintaining attention
-to quality and detail. Quality ingredients are used to ensure that customers
-receive fresh and delicious products. Customers can also communicate their
-ideas and requirements so that cakes can be customised according to their preferences.
-Since its establishment, Sweet Delight Cakes has focused on providing friendly
-customer service, affordable prices, creative designs, and convenient ordering.
-The business plans to develop its online presence so that customers can easily
-view available products, learn more about the services offered, and place orders online.
-In the future, Sweet Delight Cakes aims to grow from a small home-based bakery into
-a recognised local cake business. The business hopes to expand its product range, reach more
-customers, improve its online ordering services, and eventually establish a dedicated bakery location
+# Sweet Delight Cakes Website
+
+A responsive website developed for **Sweet Delight Cakes**, a home-based bakery that provides customised cakes and baked products for birthdays, weddings, graduations, baby showers, anniversaries and other special occasions.
+
+The website provides customers with information about the business, products and services, contact details and online ordering options. It was designed to create a professional online presence for Sweet Delight Cakes and make it easier for customers to view products and communicate their cake requirements.
 
 ## Website Goals and objectives
 The purpose of the website is to create an online platform where customers can easily learn about the business, browse products, and place cake orders.

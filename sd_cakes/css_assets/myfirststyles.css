@@ -1,0 +1,323 @@
+/* My First CSS Styles */
+
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: hotpink;
+}
+
+/* HEADER */
+
+header {
+background-color: lightpink;
+padding: 20px;
+text-align: center;
+}
+
+/* NAVIGATION */
+
+nav {
+background-color: pink;
+margin-top: 15px;
+}
+
+nav ul {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+list-style-type: none;
+margin: 0;
+padding: 10px;
+}
+
+nav ul li {
+display: block;
+}
+
+nav ul a {
+color: rgb(170, 8, 8);
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+transition: 0.3s;
+}
+
+/* WHEN YOU MOVE THE MOUSE OVER THE LINK */
+
+nav ul a:hover {
+background-color: white;
+color: hotpink;
+transform: scale(1.1);
+border-radius: 5px;
+}
+
+/* HEADINGS */
+
+h1 {
+font-size: 40px;
+color: rgb(14, 2, 4);
+padding: 20px;
+}
+
+h2 {
+padding: 20px;
+}
+
+/* SECTIONS */
+
+section {
+padding: 20px;
+}
+
+/* IMAGES */
+
+.responsive-imag {
+width: 100%;
+height: auto;
+display: block;
+}
+
+/* CAKE CONTAINER */
+
+.container {
+background-color: hotpink;
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+padding: 10px;
+}
+
+.container article {
+background-color: rgb(58, 8, 174);
+margin: 10px;
+padding: 20px;
+color: blanchedalmond;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* BUTTON LINKS */
+
+section a {
+display: inline-block;
+background-color: pink;
+color: rgb(170, 8, 8);
+text-decoration: none;
+padding: 10px 15px;
+margin: 10px 0;
+transition: 0.3s;
+}
+
+section a:hover {
+background-color: hotpink;
+color: white;
+transform: scale(1.05);
+}
+
+/* FOOTER */
+
+footer {
+background-color: lightpink;
+padding: 20px;
+text-align: center;
+}
+
+/* ==============================
+ABOUT PAGE
+================================= */
+
+.about-page {
+padding: 30px;
+}
+
+.about-article {
+max-width: 900px;
+margin: 0 auto;
+}
+
+.about-article h2 {
+text-align: center;
+font-size: 36px;
+margin-bottom: 30px;
+}
+
+/* Individual paragraph blocks */
+
+.about-block {
+background-color: white;
+padding: 25px;
+margin-bottom: 25px;
+
+/* PINK BORDER */
+border: 5px solid pink;
+
+/* ROUNDED / OVAL CORNERS */
+border-radius: 30px;
+
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+
+}
+
+.about-block h3 {
+font-size: 24px;
+margin-top: 0;
+margin-bottom: 12px;
+}
+
+.about-block p {
+font-size: 17px;
+line-height: 1.8;
+margin: 0;
+text-align: justify;
+}
+
+/* ==============================
+SOLID PARAGRAPH BORDER
+================================= */
+
+.solid {
+background-color: white;
+padding: 25px;
+margin: 20px auto;
+
+/* PINK BORDER */
+border: 5px solid pink;
+
+/* OVAL / ROUNDED CORNERS */
+border-radius:  30px;
+
+line-height: 1.8;
+
+
+}
+
+/* ==============================
+TABLET
+================================= */
+
+@media screen and (max-width: 768px) {
+
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+nav ul {
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.container {
+    grid-template-columns: auto auto;
+}
+
+.responsive-imag {
+    width: 100%;
+    height: auto;
+}
+
+.about-page {
+    padding: 30px 15px;
+}
+
+.about-article h2 {
+    font-size: 30px;
+}
+
+.about-block,
+.solid {
+    padding: 20px;
+}
+
+.about-block h3 {
+    font-size: 21px;
+}
+
+.about-block p,
+.solid {
+    font-size: 16px;
+}
+
+
+}
+
+/* ==============================
+SMARTPHONE
+================================= */
+
+@media screen and (max-width: 480px) {
+
+nav ul {
+    display: block;
+    padding: 0;
+}
+
+nav ul li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul a {
+    padding: 12px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.container {
+    grid-template-columns: auto;
+}
+
+.responsive-imag {
+    width: 100%;
+    height: auto;
+}
+
+.about-page {
+    padding: 20px 10px;
+}
+
+.about-article h2 {
+    font-size: 26px;
+}
+
+.about-block,
+.solid {
+    padding: 17px;
+    margin-bottom: 18px;
+    border-radius: 25px;
+}
+
+.about-block h3 {
+    font-size: 20px;
+}
+
+.about-block p,
+.solid {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+}
+
+/* ==============================
+DESKTOP
+================================= */
+
+.about-paragraph {
+width: 70%;
+padding: 30px;
+border: 5px solid pink;
+border-radius: 50px;
+margin: auto;
+}
+.contact-info i {
+    margin-right: 8px;
+}

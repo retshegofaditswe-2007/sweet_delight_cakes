@@ -186,14 +186,19 @@ Finally, an **administration section** could be developed to help the business m
 
 
 ###### Reference List
-Adobe. (2025). Adobe Color. Available at: https://color.adobe.com (Accessed: 30 July 2026).
-Bootstrap. (2025). Bootstrap Documentation. Available at: https://getbootstrap.com (Accessed: 30 July 2026).
-Mozilla Developer Network (MDN). (2025). HTML, CSS and JavaScript Documentation. Available at: https://developer.mozilla.org (Accessed: 30 July 2026).
-W3Schools. (2025). HTML Tutorial. Available at: https://www.w3schools.com (Accessed: 30 July 2026).
-W3Schools. (2025). CSS Tutorial. Available at: https://www.w3schools.com/css (Accessed: 30 July 2026).
-W3Schools. (2025). JavaScript Tutorial. Available at: https://www.w3schools.com/js (Accessed: 30 July 2026).
-OpenAI (2026) ChatGPT. Available at: https://chatgpt.com/ (Accessed: 12 August 2026).
+Adobe (2025) Adobe Color. Available at: https://color.adobe.com  (Accessed: 30 July 2026).
 
+Bootstrap (2025) Bootstrap documentation. Available at: https://getbootstrap.com  (Accessed: 30 July 2026).
+
+MDN Web Docs (2025) HTML, CSS and JavaScript documentation. Available at: https://developer.mozilla.org  (Accessed: 30 July 2026).
+
+OpenAI (2026) ChatGPT. Available at: https://chatgpt.com/  (Accessed: 12 August 2026).
+
+W3Schools (2025a) HTML tutorial. Available at: https://www.w3schools.com  (Accessed: 30 July 2026).
+
+W3Schools (2025b) CSS tutorial. Available at: https://www.w3schools.com/css  (Accessed: 30 July 2026).
+
+W3Schools (2025c) JavaScript tutorial. Available at: https://www.w3schools.com/js  (Accessed: 30 July 2026).
 
 
 

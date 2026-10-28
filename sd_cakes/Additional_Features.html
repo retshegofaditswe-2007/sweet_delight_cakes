@@ -1,122 +1,111 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the additional features of Sweet Delight Cakes, 
+                                     including frequently asked questions, helpful cake information,
+                                      and details to make your cake-ordering experience easier.">
+    <meta name="keywords" content ="comment down below and tell us what your think about us">
     <title>Additional Features | Sweet Delight Cakes</title>
 
-    <!-- External CSS -->
     <link rel="stylesheet" href="css_assets/myfirststyles.css">
- <!--- Icons -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-
-
 
 <body>
 
     <!-- HEADER -->
     <header>
-
-        <img src="_images/logo.png"
-             alt="Sweet Delight Cakes Logo"
-             width="150">
-
+        <img src="_images/logo.png" alt="Sweet Delight Cakes Logo" width="150">
         <h1>Sweet Delight Cakes</h1>
-
         <p>Made with Love and Served with Joy</p>
-
     </header>
 
-
-    <!-- TOP NAVIGATION MENU -->
-    
-   <!-- NAVIGATION MENU -->
-<nav>
-    <ul>
-        <li>
-            <a href="_index.html">
-                <i class="fa-solid fa-house"></i> Home
-            </a>
+    <!-- TOP NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="_index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+            <li><a href="product_and_services.html"><i class="fa-solid fa-utensils"></i> Products &amp; Services</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
+            <li><a href="Additional_Features.html"><i class="fa-solid fa-circle-question"></i> FAQ</a></li>
+            <li><a href="online_orders.html"><i class="fa-solid fa-cart-shopping"></i> Online Orders</a></li>
+             <li>
+            <a href="enquiries.html"><i class="fa-solid fa-envelope"></i> Enquiries</a>
         </li>
-
-        <li>
-            <a href="about.html">
-                <i class="fa-solid fa-circle-info"></i> About Us
-            </a>
-        </li>
-
-        <li>
-            <a href="product and services.html">
-                <i class="fa-solid fa-utensils"></i> Products & Services
-            </a>
-        </li>
-
-        <li>
-            <a href="contact.html">
-                <i class="fa-solid fa-phone"></i> Contact
-            </a>
-        </li>
-
-        <li>
-            <a href="Additional_Features.html">
-                <i class="fa-solid fa-circle-question"></i> FAQ
-            </a>
-        </li>
-
-        <li>
-            <a href="online_orders.html">
-                <i class="fa-solid fa-cart-shopping"></i> Online Orders
-            </a>
-        </li>
-    </ul>
-</nav>
-
-
+        </ul>
+    </nav>
 
     <!-- MAIN CONTENT -->
     <main>
 
-        <!-- ADDITIONAL FEATURES -->
         <section>
-
             <h2>Additional Features</h2>
-
             <p>
                 These additional features make ordering cakes easier
                 and improve the customer experience.
             </p>
-
         </section>
 
-
-        <!-- SEARCH FOR CAKES -->
-        <section>
-
+        <!-- CAKE SEARCH -->
+        <section id="cake-search">
             <h2>Search for Cakes</h2>
+            <p>Search our cake catalogue to find a cake for your special occasion.</p>
 
-            <form>
-
-                <input type="text"
-                       name="search"
-                       placeholder="Search for cakes...">
-
-                <input type="submit"
-                       value="Search">
-
+            <form id="cakeSearchForm">
+                <label for="cakeSearchInput">Enter a cake name:</label>
+                <input
+                    type="text"
+                    id="cakeSearchInput"
+                    name="search"
+                    placeholder="Try birthday, wedding or cupcakes"
+                    required
+                >
+                <button type="submit">Search</button>
             </form>
 
+            <div id="cakeSearchResults"></div>
         </section>
+
+
+<!-- DELIVERY INFORMATION -->
+<section id="delivery-information">
+    <div class="delivery-notice">
+
+        <h2>
+            <i class="fas fa-truck"></i>
+            Delivery Information
+        </h2>
+
+        <p>
+            <strong>Pretoria Central:</strong>
+            Free delivery.
+        </p>
+
+        <p>
+            <strong>Other areas:</strong>
+            R150 delivery fee where applicable.
+        </p>
+
+        <p>
+            <strong>Other provinces:</strong>
+            R300 delivery fee.
+        </p>
+
+        <p>
+            Please confirm your delivery location and fee
+            when placing your order.
+        </p>
+
+    </div>
+</section>
 
 
         <!-- CUSTOMER REVIEWS -->
-        <section>
-
+        <section id="customer-reviews">
             <h2>Customer Reviews</h2>
 
             <p>
@@ -135,169 +124,158 @@
                 <strong>⭐⭐⭐⭐⭐ Lerato P.</strong><br>
                 "Fresh cupcakes, affordable prices, and fast delivery."
             </p>
-
         </section>
-
 
         <!-- FREQUENTLY ASKED QUESTIONS -->
-        <section>
-
+        <section id="faq">
             <h2>Frequently Asked Questions (FAQ)</h2>
 
+            <h3>How many days before should I place my order?</h3>
+            <p>We recommend placing your order at least 3–5 days in advance.</p>
+
+            <h3>Do you make custom cakes?</h3>
             <p>
-                <strong>
-                    Q: How many days before should I place my order?
-                </strong>
+                Yes. We create customised cakes for birthdays, weddings,
+                graduations, and other special occasions.
             </p>
 
+            <h3>Do you offer delivery?</h3>
             <p>
-                A: We recommend placing your order at least 3–5 days
-                in advance.
+                Yes. Customers can choose collection or delivery.
+                Delivery fees depend on the delivery location.
             </p>
 
-
+            <h3>Which payment methods do you accept?</h3>
             <p>
-                <strong>
-                    Q: Do you make custom cakes?
-                </strong>
+                We accept cash and EFT. Please contact us to confirm
+                the available payment options for your order.
             </p>
-
-            <p>
-                A: Yes. We create customised cakes for birthdays,
-                weddings, graduations, and other special occasions.
-            </p>
-
-
-            <p>
-                <strong>
-                    Q: Do you offer delivery?
-                </strong>
-            </p>
-
-            <p>
-                A: Yes. Customers can choose collection or delivery
-                when placing an order.
-            </p>
-
-
-            <p>
-                <strong>
-                    Q: Which payment methods do you accept?
-                </strong>
-            </p>
-
-            <p>
-                A: We accept cash, EFT, and secure online payments.
-            </p>
-
         </section>
 
+        
+<!-- SOCIAL MEDIA -->
+<section id="social-media">
+    <h2>Follow Us on Social Media 💗</h2>
 
-        <!-- SOCIAL MEDIA -->
-        <section>
+    <p>Follow Sweet Delight Cakes for beautiful cakes, new designs and special offers!</p>
 
-            <h2>Follow Us</h2>
+    <!-- Facebook -->
+    <p>
+        <i class="fa-brands fa-facebook"></i>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+            Facebook: @SweetDelightCakes
+        </a>
+    </p>
 
-            <p>Facebook: @SweetDelightCakes</p>
+    <!-- Instagram -->
+    <p>
+        <i class="fa-brands fa-instagram"></i>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            Instagram: @SweetDelightCakes
+        </a>
+    </p>
 
-            <p>Instagram: @SweetDelightCakes</p>
+    <!-- TikTok -->
+    <p>
+        <i class="fa-brands fa-tiktok"></i>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+            TikTok: @SweetDelightCakes
+        </a>
+    </p>
 
-            <p>TikTok: @SweetDelightCakes</p>
+    <!-- WhatsApp -->
+    <p>
+        <i class="fa-brands fa-whatsapp"></i>
+        <a href="https://wa.me/27798263020" target="_blank" rel="noopener noreferrer">
+            WhatsApp: +27 79 826 3020
+        </a>
+    </p>
+</section>
 
-            <p>WhatsApp: +27 798263020</p>
 
-        </section>
-
-
-        <!-- NEWSLETTER -->
-        <section>
-
-            <h2>Subscribe to Our Newsletter</h2>
-
-            <form>
-
-                <label for="email">
-                    Email Address:
-                </label>
-
-                <br>
-
-                <input type="email"
-                       id="email"
-                       name="email"
-                       required>
-
-                <br><br>
-
-                <input type="submit"
-                       value="Subscribe">
-
-            </form>
+        <!-- CONNECTED NEWSLETTER -->
+        <section id="newsletter">
+            <h2>Subscribe to Our Newsletter 💗</h2>
 
             <p>
                 Subscribe to receive special offers, new cake designs,
-                and promotions.
+                and promotions from Sweet Delight Cakes.
             </p>
 
+            <form
+                id="newsletterForm"
+                action="https://formspree.io/f/xaeqajqo"
+                method="POST"
+            >
+                <label for="newsletterEmail">Enter your email address:</label>
+                <br><br>
+
+                <input
+                    type="email"
+                    id="newsletterEmail"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+                <br><br>
+
+                <button type="submit">Subscribe 💗</button>
+            </form>
+
+            <p id="newsletterStatus" aria-live="polite"></p>
         </section>
 
     </main>
 
+    <!-- BOTTOM NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="_index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+            <li><a href="product_and_services.html"><i class="fa-solid fa-utensils"></i> Products &amp; Services</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
+            <li><a href="Additional_Features.html"><i class="fa-solid fa-circle-question"></i> FAQ</a></li>
+            <li><a href="online_orders.html"><i class="fa-solid fa-cart-shopping"></i> Online Orders</a></li>
+            <li><a href="enquiries.html"><i class="fa-solid fa-envelope"></i>Enquiries</a></li>
+        </ul>
+    </nav>
 
-    <!-- BOTTOM NAVIGATION MENU -->
-   
-   <!-- NAVIGATION MENU -->
-<nav>
-    <ul>
-        <li>
-            <a href="_index.html">
-                <i class="fa-solid fa-house"></i> Home
-            </a>
-        </li>
+  <!-- FOOTER -->
+<footer>
+    <hr>
 
-        <li>
-            <a href="about.html">
-                <i class="fa-solid fa-circle-info"></i> About Us
-            </a>
-        </li>
+    <h2>Contact Sweet Delight Cakes</h2>
 
-        <li>
-            <a href="product and services.html">
-                <i class="fa-solid fa-utensils"></i> Products & Services
-            </a>
-        </li>
+    <p>
+        <i class="fa-solid fa-mobile-button"></i>
+        <strong>Cell:</strong>
+        <a href="tel:0798263020">0798263020</a>
+    </p>
 
-        <li>
-            <a href="contact.html">
-                <i class="fa-solid fa-phone"></i> Contact
-            </a>
-        </li>
+    <p>
+        <i class="fa-solid fa-building"></i>
+        <strong>Office:</strong>
+        <a href="tel:0121234567">012 123 4567</a>
+    </p>
 
-        <li>
-            <a href="Additional_Features.html">
-                <i class="fa-solid fa-circle-question"></i> FAQ
-            </a>
-        </li>
+    <p>
+        <i class="fa-solid fa-envelope"></i>
+        <strong>Email:</strong>
+        <a href="mailto:RETSHEGOFADITSWE2007@GMAIL.COM">
+            RETSHEGOFADITSWE2007@GMAIL.COM
+        </a>
+    </p>
 
-        <li>
-            <a href="online_orders.html">
-                <i class="fa-solid fa-cart-shopping"></i> Online Orders
-            </a>
-        </li>
-    </ul>
-</nav>
+    <p>
+        &copy; <span id="copyrightYear">2026</span>
+        Sweet Delight Cakes. All Rights Reserved.
+    </p>
 
+      
 
-    <!-- FOOTER -->
-    <footer>
-
-        <p>
-            &copy; 2026 Sweet Delight Cakes. All Rights Reserved.
-        </p>
-
-    </footer>
-
+    <!-- EXTERNAL JAVASCRIPT -->
+    <script src="js_assets/myfirstjs_assets.js"></script>   please fix
 
 </body>
-
 </html>

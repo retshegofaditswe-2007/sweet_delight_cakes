@@ -86,17 +86,99 @@ The development of the Sweet Delight Cakes website will be completed over an eig
 
 ###### Changelog
 
-The Sweet Delight Cakes website has been developed and improved through several stages to ensure that it meets the needs of the business and its customers. The initial stage involved creating the website structure and developing the main pages required for the website. The design was then improved by adding a consistent cake-themed colour scheme, suitable fonts, layouts, images, and navigation elements to make the website more attractive and user-friendly.
+# Change Log: Sweet Delight Cakes Website
 
-The Products and Services section was developed to provide customers with information about the different cakes and services offered by Sweet Delight Cakes. The About Us section was also improved by adding information about the business, including its history, mission, vision, and values. These improvements help customers understand the business and the services it provides.
+## 1. HTML Structure and Website Content
 
-An online ordering section was added to make it easier for customers to provide their cake requirements and submit orders. The FAQ and customer support features were also included to provide customers with answers to common questions and make it easier for them to obtain assistance when needed.
+**Changes made:**
+- Improved the structure of the website using HTML5 elements such as `<header>`, `<nav>`, `<main>`, `<section>` and `<footer>`.
+- Organised the website content into clear sections, including Home, About Us, Products and Services, Contact, Enquiries, FAQ and Online Orders.
+- Added contact information, social media links and Google Maps to the Contact page.
+- Improved the navigation links to help users move between the different pages.
 
-The website was further improved to make it responsive on different screen sizes and devices. Navigation and other website features were checked and adjusted to provide a better user experience. The current version of the website includes the main features required for customers to learn about Sweet Delight Cakes, view its products and services, and make enquiries or place orders.
+**How this improved the website:**
 
-Future improvements will focus on adding additional functionality to the website. These improvements may include online payment options, customer reviews and ratings, a more detailed photo gallery, order confirmation features, delivery options, social media links, and an administration section for managing website content and customer orders.
+These changes made the website more organised and easier to navigate. Customers can find information about the bakery, view its products, contact the business and access the online ordering page more easily. The improved HTML structure also supports accessibility and helps search engines understand the content of the website.
 
-The changelog records the development and improvements made to the Sweet Delight Cakes website. It shows the features that were added and improved as the website developed.
+## 2. CSS Styling and Responsive Design
+
+**Changes made:**
+- Improved the website layout, colours, spacing and alignment to create an attractive bakery theme.
+- Added responsive CSS rules for desktop computers, tablets and mobile phones.
+- Improved the layout of the Google Maps so that the two maps can appear next to each other on larger screens and stack vertically on smaller screens.
+- Adjusted the width and height of the maps to use the available screen space.
+- Improved the bottom navigation so that links are arranged neatly and can wrap or stack on smaller devices.
+
+**How this improved the website:**
+
+The CSS improvements make Sweet Delight Cakes look more professional and consistent. The responsive layout allows customers to use the website on different screen sizes without unnecessary horizontal scrolling. Clear spacing, readable text and organised maps improve the user experience.
+
+## 3. JavaScript Functionality
+
+**Changes made:**
+- Used JavaScript to support interactive website features.
+- Included an automatically updating copyright year where implemented in the JavaScript file.
+- Added or improved interactive buttons and form validation where applicable.
+- Improved the website's interactive elements to make them easier for users to operate.
+
+**How this improved the website:**
+
+JavaScript makes the website more interactive and can help users complete tasks correctly. Form validation can identify missing or incorrectly entered information before a form is submitted. Interactive features can also make navigation and other website functions more convenient.
+
+*Note: Only list the JavaScript features that are actually implemented and working in the final website.*
+
+## 4. Search Engine Optimisation (SEO)
+
+**Changes made:**
+- Added a descriptive `<meta name="description">` tag to the Contact page.
+- Added a `<meta name="keywords">` tag containing relevant terms such as Sweet Delight Cakes, cake enquiries, custom cake orders, cake delivery and Pretoria bakery.
+- Added a `<meta name="author">` tag to identify the website author.
+- Used descriptive page titles, such as “Contact Us | Sweet Delight Cakes”.
+- Added meaningful image alternative text, such as the description of the Sweet Delight Cakes logo.
+- Included descriptive headings, page content and links to help users and search engines understand the website.
+- Used relevant location information in the contact details and Google Maps section.
+
+**How SEO improves the website:**
+
+Search Engine Optimisation (SEO) is the process of improving a website so that search engines can understand its content and potentially show it in relevant search results.
+
+The SEO improvements can benefit Sweet Delight Cakes in the following ways:
+
+1. **Improved search visibility:** Descriptive page titles and relevant content help search engines understand what the bakery offers. This may help the website appear in searches for custom cakes, birthday cakes and cake orders in Pretoria.
+
+2. **More potential customers:** If the website appears in relevant search results, people looking for cakes for birthdays, weddings, graduations and other celebrations may discover the business.
+
+3. **Better user experience:** Clear headings, descriptive links and meaningful alternative text help visitors understand the website. Alternative text can also help people using screen readers.
+
+4. **Improved local discovery:** Accurate business contact details and location information help customers understand where the bakery operates. A properly configured Google Business Profile, if eligible, can also support visibility in local search and map results.
+
+5. **More enquiries and orders:** Better visibility may bring more potential customers to the website, where they can view products, make enquiries and place orders.
+
+6. **Stronger business credibility:** A clear, informative website helps customers find essential information before deciding whether to contact the bakery.
+
+**Important SEO consideration:** Adding meta tags does not guarantee a higher Google ranking. Search engines may ignore the keywords meta tag, and rankings also depend on factors such as useful content, mobile usability, page speed, accessibility, relevant links and search engine indexing.
+
+## 5. Contact Information and Google Maps
+
+**Changes made:**
+- Organised the contact information into a table.
+- Added clickable telephone, WhatsApp and email links.
+- Included links to TikTok, Facebook and Instagram.
+- Added two Google Maps embeds to display the listed locations.
+- Improved the map layout to make the locations easier to view on different devices.
+
+**How this improved the website:**
+
+Customers can find the listed addresses, open directions in Google Maps and contact the bakery using their preferred method. The responsive map layout makes location information easier to access on desktop computers, tablets and mobile phones.
+
+The two addresses should be verified before publication to ensure that they are genuine bakery locations and that the map pins are accurate.
+
+## 6. Overall Website Improvement
+
+The changes made to Sweet Delight Cakes improved the website's structure, visual appearance, navigation, responsiveness and access to business information. The SEO updates help search engines interpret the website and may improve its visibility to people searching for cakes and bakery services.
+
+Together, these improvements support the main purpose of the website: to promote Sweet Delight Cakes, help customers discover its products and services, encourage enquiries, and make online cake ordering more convenient.
+
 
 ## Website Creation
 
@@ -155,7 +237,6 @@ The changelog records the development and improvements made to the Sweet Delight
 * Changed the cake product grid to display correctly on tablets and smartphones.
 * Improved the overall mobile-friendly design.
 
-## Current Website Features
 ## Current Website Features
 
 The current Sweet Delight Cakes website provides customers with important information about the business and its services. The website displays general business information and introduces customers to the history, mission, vision, and values of Sweet Delight Cakes. This allows visitors to understand the purpose of the business and what it aims to provide to its customers.

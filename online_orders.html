@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Order cakes online from Sweet Delight Cakes for birthdays, weddings, and special occasions. Explore cake options and submit your order to make every celebration sweeter.">
+    <meta name="keywords" content="order online so that you can get your order delivered on your doorstep if not, you order and collect">
+    <title>Online Cake Orders | Sweet Delight Cakes</title>
+    
+    <link rel="stylesheet" href="css_assets/myfirststyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <img src="_images/logo.png" alt="Sweet Delight Cakes Logo" width="150">
+    <h1>Sweet Delight Cakes</h1>
+    <p>Sweet. Delicious. Fresh Cakes</p>
+</header>
+
+<!-- TOP NAVIGATION -->
+<nav aria-label="Main navigation">
+    <ul>
+        <li><a href="_index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+        <li><a href="product_and_services.html"><i class="fa-solid fa-utensils"></i> Products &amp; Services</a></li>
+        <li><a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
+        <li><a href="additional_features.html"><i class="fa-solid fa-circle-question"></i> FAQ</a></li>
+        <li><a href="online_orders.html" aria-current="page"><i class="fa-solid fa-cart-shopping"></i> Online Orders</a></li>
+        <li><a href="enquiries.html"><i class="fa-solid fa-envelope"></i> Enquiries</a></li>
+    </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main>
+    <h1>Order Your Cake Online</h1>
+    <p>Complete the form below to order your favourite cake.</p>
+
+    <form id="orderForm">
+
+        <!-- CUSTOMER DETAILS -->
+        <h2>Customer Details</h2>
+
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="e.g. 0712345678" required>
+        <br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- CAKE SELECTION -->
+        <h2>Choose Your Cake</h2>
+
+        <label for="product">Select Cake:</label><br>
+
+        <select id="product" name="product" required>
+            <option value="">-- Select a Cake --</option>
+            <option value="birthday">Birthday Cake</option>
+            <option value="wedding">Wedding Cake</option>
+            <option value="babyshower">Baby Shower Cake</option>
+            <option value="graduation">Graduation Cake</option>
+            <option value="cupcakes">Cupcakes</option>
+            <option value="customised">Customised Cake</option>
+        </select>
+
+        <br><br>
+
+        <!-- CAKE IMAGE PREVIEW -->
+        <section class="cake-preview">
+            <h2 id="cakeName">Your Selected Cake</h2>
+
+            <img id="cakeImage" src="_images/baby_shower_cake.avif" alt="Select a cake to see its picture" width="300">
+
+            <p id="cakeDescription">
+                Select a cake from the list to see its picture.
+            </p>
+        </section>
+
+        <br>
+
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" step="1" required>
+        <br><br>
+
+        <label for="flavour">Choose a Flavour:</label><br>
+        <select id="flavour" name="flavour" required>
+            <option value="">-- Select a Flavour --</option>
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="redvelvet">Red Velvet</option>
+            <option value="carrot">Carrot</option>
+            <option value="lemon">Lemon</option>
+        </select>
+        <br><br>
+
+        <label for="size">Cake Size:</label><br>
+        <select id="size" name="size" required>
+            <option value="">-- Select a Size --</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+        <br><br>
+
+        <label for="date">Date Cake Is Required:</label><br>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+
+        <label for="message">Message to Write on the Cake:</label><br>
+        <input type="text" id="message" name="message" placeholder="Example: Happy Birthday">
+        <br><br>
+
+        <!-- DELIVERY METHOD -->
+        <h2>Delivery or Collection</h2>
+
+        <p>Please select how you would like to receive your cake.</p>
+
+        <label>
+            <input type="radio" name="receive" value="collection" required>
+            Collection (Free)
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="receive" value="delivery">
+            Delivery
+        </label>
+        <br><br>
+
+        <label for="deliveryArea">Delivery Area:</label><br>
+
+        <select id="deliveryArea" name="deliveryArea">
+            <option value="">-- Select Delivery Area --</option>
+            <option value="central">Pretoria Central - Free</option>
+            <option value="gauteng">Rest of Gauteng - R150</option>
+            <option value="other">Other Provinces - R300</option>
+        </select>
+
+        <br><br>
+
+        <label for="address">Delivery Address:</label><br>
+        <textarea id="address" name="address" rows="4" placeholder="Enter your full delivery address"></textarea>
+        <br><br>
+
+        <!-- ORDER CALCULATOR -->
+        <section class="order-summary">
+            <h2>Order Summary</h2>
+
+            <p>Cake Price: R<span id="cakePrice">0.00</span></p>
+            <p>Quantity: <span id="displayQuantity">1</span></p>
+            <p>Subtotal: R<span id="subtotal">0.00</span></p>
+            <p>Delivery Fee: R<span id="deliveryFee">0.00</span></p>
+
+            <hr>
+
+            <h3>Total Amount: R<span id="grandTotal">0.00</span></h3>
+
+            <p id="orderMessage" role="status">
+                Select a cake and delivery method to calculate your total.
+            </p>
+        </section>
+
+        <br>
+
+        <!-- PAYMENT -->
+        <h2>Payment Method</h2>
+
+        <label for="payment">Choose Payment Method:</label><br>
+
+        <select id="payment" name="payment" required>
+            <option value="">-- Select Payment Method --</option>
+            <option value="cash">Cash</option>
+            <option value="eft">EFT</option>
+            <option value="card">Card</option>
+        </select>
+
+        <br><br>
+
+        <label for="notes">Additional Notes:</label><br>
+        <textarea id="notes" name="notes" rows="4" placeholder="Any special instructions?"></textarea>
+
+        <br><br>
+
+        <button type="submit">Place Order</button>
+        <button type="reset">Clear Form</button>
+
+        <p id="submitMessage" role="status"></p>
+
+    </form>
+
+    <!-- SUCCESS MESSAGE (Hidden by default) -->
+    <section id="thankYouSection" class="success-card" style="display: none;">
+        <div class="check-icon">
+            <i class="fa-solid fa-check"></i>
+        </div>
+        <h2>Thank You, <span id="thankYouCustomer"></span>!</h2>
+        
+        <h3 style="color: #d81b60; font-size: 1.4rem; margin-top: 20px; margin-bottom: 30px;">
+            💗 THANK YOU FOR ORDERING 💗<br>
+            We will get back to you for more communication!!!
+        </h3>
+
+        <div class="confirmation-box">
+            <p><strong>Order Details Sent to:</strong></p>
+            <div class="confirm-row"><i class="fa-solid fa-envelope"></i> <span id="receiptEmail"></span></div>
+            <div class="confirm-row"><i class="fa-solid fa-phone"></i> <span id="receiptPhone"></span></div>
+            <div class="confirm-row"><i class="fa-solid fa-cake-candles"></i> <span id="receiptCakeSummary"></span></div>
+        </div>
+
+        <p class="urgent-help">Need urgent help? Call us on <a href="tel:0798263020">079 826 3020</a>.</p>
+        
+        <button type="button" id="newOrderButton">Place Another Order</button>
+    </section>
+
+</main>
+
+<!-- BOTTOM NAVIGATION MENU (Now placed correctly outside of main) -->
+<nav aria-label="Footer navigation">
+        <ul>
+            <li><a href="index.html" aria-current="page"><i class="fa-solid fa-house" aria-hidden="true"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> About Us</a></li>
+            <li><a href="product_and_services.html"><i class="fa-solid fa-utensils" aria-hidden="true"></i> Products &amp; Services</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-phone" aria-hidden="true"></i> Contact</a></li>
+            <li><a href="additional_features.html"><i class="fa-solid fa-circle-question" aria-hidden="true"></i> FAQ</a></li>
+            <li><a href="online_orders.html"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i> Online Orders</a></li>
+            <li><a href="enquiries.html"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Enquiries</a></li>
+        </ul>
+    </nav>
+
+<!-- FOOTER -->
+<footer>
+    <hr>
+
+    <h2>Contact Sweet Delight Cakes</h2>
+
+    <p>
+        <i class="fa-solid fa-mobile-button"></i>
+        <strong>Cell:</strong>
+        <a href="tel:0798263020">0798263020</a>
+    </p>
+
+    <p>
+        <i class="fa-solid fa-building"></i>
+        <strong>Office:</strong>
+        <a href="tel:0121234567">012 123 4567</a>
+    </p>
+
+    <p>
+        <i class="fa-solid fa-envelope"></i>
+        <strong>Email:</strong>
+        <a href="mailto:RETSHEGOFADITSWE2007@GMAIL.COM">
+            RETSHEGOFADITSWE2007@GMAIL.COM
+        </a>
+    </p>
+
+    <p>
+        &copy; <span id="copyrightYear">2026</span>
+        Sweet Delight Cakes. All Rights Reserved.
+    </p>
+</footer>
+
+<!-- CONNECT JAVASCRIPT FILE -->
+<script src="js_assets/myfirstjs_assets.js"></script>
+
+</body>
+</html>

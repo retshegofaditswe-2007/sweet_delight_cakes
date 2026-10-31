@@ -246,7 +246,29 @@ The website also provides information about the different products and services 
 Another important feature of the website is the contact and online ordering functionality. Customers can access the business contact information and use the available ordering features to provide their cake requirements. The website also includes an FAQ section that provides answers to common customer questions and helps customers find information more easily.
 
 The website includes a clear navigation system that allows users to move between the different pages. A pink, cake-themed design is used throughout the website to create a consistent visual identity that is suitable for the bakery. The website is also designed to be responsive, allowing customers to access and view the website on different screen sizes and devices.
+**Website Development Update – Sweet Delight Cakes**
 
+The website has undergone several improvements and additions to ensure that it meets the requirements outlined in the project proposal.
+
+A new **Gallery page** (`gallery.html`) was created with a six-image cake gallery and buttons that direct customers to the Online Orders and Enquiries pages. The homepage (`index.html`) was improved by adding a Featured Cakes section to match the proposed design. The About page (`about.html`) was updated with a Company Values section, highlighting Quality, Creativity, Customer Satisfaction and Integrity.
+
+The Contact page (`contact.html`) now includes a functional Quick Message form with a JavaScript success message. The Online Orders page (`online_orders.html`) was also improved by adding a secure payment notice and an inspiration image upload field, allowing customers to submit pictures of their preferred cake designs. A README.md file was created to explain how the website meets the project budget and technical requirements.
+
+Furthermore, mobile responsiveness was improved using CSS media queries in `myfirststyles.css`, ensuring that the navigation, tables and gallery display correctly on smaller screens.
+
+**Several functionality issues were also fixed.** The Place Order button now correctly processes the customer's information and displays a Thank You receipt containing their name, email, phone number and cake selection. The delivery fee calculator was corrected so that customers are only charged a delivery fee when they select delivery and not collection. Date validation was added to prevent customers from selecting past dates. The delivery address field is now only required when delivery is selected.
+
+Broken links were corrected, including the link that incorrectly directed users to `_index.html` instead of `index.html`. Accessibility was also improved by correcting missing ARIA attribute values in the navigation menus.
+
+**Additional changes were made to improve SEO, accessibility and website performance.** Meta keywords were updated across the website, canonical links were added to all pages, and lazy loading was applied to product and gallery images to improve loading speed. The company logo was also added as a favicon so that it appears on the browser tab. The Baby Shower cake description in the Product and Services table was corrected, and duplicate floating navigation menus were removed from the bottom of the pages and consolidated into the footer.
+
+**Version 1.0.0 – Initial Review and Core Fixes**
+
+During the initial review, JavaScript functionality was added to the Additional Features page (`additional_features.html`). The newsletter form now displays a green success message after submission. A cake search function was also developed using a JavaScript array, allowing customers to search for different cake categories, such as wedding and birthday cakes.
+
+A search bar was added to the homepage to help customers find information through the FAQ page. Lastly, the cake preview functionality on the Online Orders page was repaired by correcting the JavaScript element ID and matching the image and description data attributes with the HTML.
+
+Overall, these improvements have made the Sweet Delight Cakes website more functional, user-friendly, visually organised, accessible and responsive across different devices.
 ## Future Improvements
 
 Although the Sweet Delight Cakes website currently provides the main information and functionality required by customers, there are several improvements that can be made in the future to further develop the website and improve the customer experience.
